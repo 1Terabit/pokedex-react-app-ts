@@ -18,8 +18,16 @@
 
 git clone https://github.com/anthwam/pokedex-react-app-ts
 
-npm i -g yarn
+ npm i -g yarn
 
 yarn
 
-yarn start
+ yarn start
+
+</br>
+</br>
+
+# ❗ Test
+
+
+ yarn test
