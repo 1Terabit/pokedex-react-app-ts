@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import  { useTranslation } from "react-i18next";
 import { GoSearch } from "react-icons/go";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -22,11 +23,11 @@ type Props = {
 };
 
 const PokemonForm = ({
-  placeholder,
   initialValue = "",
   changeHandler,
   mutatePage,
 }: Props) => {
+  const [t, i18n] = useTranslation("global");
   const dispatch = useDispatch();
   const pokemons = useSelector(pokemonsSelector);
   const [value, setValue] = useState<string>(initialValue);
@@ -79,7 +80,7 @@ const PokemonForm = ({
 
         <input
           className="py-2 pl-10 md:pr-24 lg:pr-48  w-full text-sm rounded-lg bg-primaryGray text-tertiaryGray placeholder-tertiaryGray appearance-none focus:outline-none focus:font-medium focus:border-secondaryGray"
-          placeholder={placeholder || "Search an item..."}
+          placeholder={t("placeholder.search-item")}
           value={value}
           onKeyPress={(e: React.KeyboardEvent) => {
             if (e.key === "Enter") {
@@ -110,7 +111,7 @@ const PokemonForm = ({
         }
         onClick={submitFormHandler}
       >
-        Search
+        {t("search.search-button")}
       </button>
     </div>
   );
