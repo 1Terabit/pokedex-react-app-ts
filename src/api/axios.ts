@@ -27,6 +27,6 @@ export const createApiRequest = async (
   }
 };
 export const baseImageUrl =
-  "https://github.com/anthwam";
+"https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/";
 
 export default axios;

@@ -12,7 +12,7 @@ ReactDOM.render(
     <HelmetProvider>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>React Pokédex</title>
+        <title>Pokédex React Js</title>
         <meta
           name="description"
           content="a simple pokédex for your pokemon needs."

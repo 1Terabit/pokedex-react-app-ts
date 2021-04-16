@@ -27,7 +27,7 @@ const useScrollDirection = ({
       const scrollY = window.pageYOffset;
 
       if (Math.abs(scrollY - lastScrollY) < threshold) {
-        // We haven't exceeded the threshold
+        //FIXME: We haven't exceeded the threshold
         ticking = false;
         return;
       }

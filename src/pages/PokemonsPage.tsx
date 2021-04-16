@@ -19,7 +19,7 @@ const PokemonsPage = () => {
     <Layout title="Home">
       <div className="flex items-center justify-center lg:justify-start">
         <h1 className="text-3xl lg:text-5xl font-semibold sm:text-left inline-block">
-          React Pokédex
+        Pokédex React Js
         </h1>
         <a
           href="https://github.com/anthwam/pokedex-react-app-ts"
