@@ -19,9 +19,9 @@ const PokemonsPage = () => {
 
   return (
     <Layout title="Home">
-    <button onClick={() => i18n.changeLanguage("es")}>ES</button>
-    <button onClick={() => i18n.changeLanguage("en")}>EN</button>
-      <br /> 
+    <button className="btni18nes" onClick={() => i18n.changeLanguage("en")}>EN</button>
+    <button className="btni18nes" onClick={() => i18n.changeLanguage("es")}>ES</button>
+    
       <div className="flex items-center justify-center lg:justify-start">
         <h1 className="text-3xl lg:text-5xl font-semibold sm:text-left inline-block">
         Pokédex React Ts

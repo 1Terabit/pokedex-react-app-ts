@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+@variables.scss;
 
 @font-face {
   font-family: "Montserrat";
@@ -48,4 +49,11 @@ body {
   background-color: #f2f1f0;
   margin: 0;
   padding: 0;
+}
+
+.btni18nes{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: red;
 }
