@@ -13,8 +13,8 @@
 
 <p align='center'>
 ⚙️<ins><b> Quick Start</b></ins></br></br>
-git clone https://github.com/anthwam/pokedex-react-app-ts</br>
 npm i -g yarn</br>
+git clone https://github.com/anthwam/pokedex-react-app-ts</br>
 yarn</br>
 yarn start
 
