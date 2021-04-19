@@ -9,7 +9,6 @@
     "fast-levenshtein": "^3.0.0",
     "i18next": "^20.2.1",
     "lodash-humps-ts": "^0.0.6",
-    "node-sass": "^4.0.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-helmet-async": "^1.0.7",
@@ -64,6 +63,7 @@
     "@types/react-scroll": "^1.8.2",
     "autoprefixer": "^10.0.1",
     "postcss-nested": "^5.0.1",
+    "sass": "^1.32.10",
     "tailwindcss": "^1.9.6"
   }
 }
