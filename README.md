@@ -1,5 +1,5 @@
 <h1 align='center'>
-    <b>POKÉDEX  <img src="https://www.flaticon.com/svg/vstatic/svg/188/188942.svg?token=exp=1618508426~hmac=e98f0760712779a22884fc58a2c9a8ee" width="30">  REACTJS</b>
+    <b>POKÉDEX  <img src="https://i.ibb.co/n6tmPWC/icons8-meowth-48.png" width="30">  REACTJS</b>
 </br>    
 <a href="https://anthwam.netlify.app/" target="_blank"><img alt="Site" src="https://i.ibb.co/BwGdRTC/Logo-sin-espacios.png"  width="250" /></a>
 </h1>
@@ -21,13 +21,11 @@ yarn start
 </p>
 
 </br>
-</br>
 
 <p align='center'> ❗ <ins><b> Test </b></ins></br></br>
 yarn test
 </p>
 
-</br>
 </br>
 
 <p align="center"> 💻 <ins><b> Example </b></ins></br></br>
