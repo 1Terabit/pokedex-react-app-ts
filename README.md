@@ -12,7 +12,7 @@
 </br>
 
 <p align='center'>
-⚙️<ins><b> Quick Start</b></ins></br></br>
+⚙️ <ins><b> Quick Start</b></ins></br></br>
 npm i -g yarn</br>
 git clone https://github.com/anthwam/pokedex-react-app-ts</br>
 yarn</br>
@@ -23,9 +23,15 @@ yarn start
 </br>
 </br>
 
-<p align='center'> ❗<ins><b> Test </b></ins></br></br>
+<p align='center'> ❗ <ins><b> Test </b></ins></br></br>
 yarn test
 </p>
 
+</br>
+</br>
+
+<p align="center"> 💻 <ins><b> Example </b></ins></br></br>
+<a href="https://pokedex-ts-react.netlify.app/">✋ HEY CLICK ME </a>
+</p>
 
 
