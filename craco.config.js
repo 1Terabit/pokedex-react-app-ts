@@ -6,4 +6,7 @@ module.exports = {
       mode: POSTCSS_MODES.file,
     },
   },
+  eslint: {
+    enable: false,
+  },
 };
